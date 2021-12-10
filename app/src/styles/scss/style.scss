@@ -99,52 +99,37 @@ body {
       text-align: center;
       color: hsla(0, 0%, 100%, 0.75);
     }
+    /** || Card-Body-Stats blocks **/
+    .stats {
+      margin: 1.5rem 0;
 
+      text-align: center;
+
+      .stats-header {
+        font-weight: 700;
+        color: hsla(0, 0%, 100%, 0.6);
+      }
+
+      .stats-description {
+        font-family: 'Lexend Deca', sans-serif;
+        color: hsla(0, 0%, 100%, 0.75);
+      }
+    }
     /** || Card-Body-Stats-of-Companies **/
-    .card-stats-companies {
-      margin: 1.5rem 0;
-
-      text-align: center;
-
-      .card-stats-companies-header {
-        font-weight: 700;
-        color: hsla(0, 0%, 100%, 0.6);
-      }
-      .card-stats-companies-description {
-        font-family: 'Lexend Deca', sans-serif;
-        color: hsla(0, 0%, 100%, 0.75);
-      }
-    }
+    /*.card-stats-companies {
+      .card-stats-companies-header { }
+      .card-stats-companies-description { }
+    }*/
     /** || Card-Body-Stats-of-Templates **/
-    .card-stats-templates {
-      margin: 1.5rem 0;
-
-      text-align: center;
-
-      .card-stats-templates-header {
-        font-weight: 700;
-        color: hsla(0, 0%, 100%, 0.6);
-      }
-      .card-stats-templates-description {
-        font-family: 'Lexend Deca', sans-serif;
-        color: hsla(0, 0%, 100%, 0.75);
-      }
-    }
+    /*.card-stats-templates {
+      .card-stats-templates-header { }
+      .card-stats-templates-description { }
+    }*/
     /** || Card-Body-Stats-of-Queries **/
-    .card-stats-queries {
-      margin: 1.5rem 0;
-
-      text-align: center;
-
-      .card-stats-queries-header {
-        font-weight: 700;
-        color: hsla(0, 0%, 100%, 0.6);
-      }
-      .card-stats-queries-description {
-        font-family: 'Lexend Deca', sans-serif;
-        color: hsla(0, 0%, 100%, 0.75);
-      }
-    }
+    /*.card-stats-queries {
+      .card-stats-queries-header { }
+      .card-stats-queries-description { }
+    }*/
   }
 }
 
@@ -154,7 +139,7 @@ body {
   font-size: 11px;
   text-align: center;
   color: hsl(0, 0%, 100%);
-  
+
   & a {
     color: hsl(228, 45%, 44%);
   }
