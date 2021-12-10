@@ -14,8 +14,12 @@
 
     <div class="card">
       <div class="card-hero">
-        <img src="./src/assets/images/image-header-mobile.jpg" alt="A bunch of people working at the laptop and chatting"
-        class="card-hero-img">
+        <picture>
+          <source media="(min-width: 1340px)" srcset="./src/assets/images/image-header-desktop.jpg">
+
+          <img src="./src/assets/images/image-header-mobile.jpg"
+          alt="A bunch of people working at the laptop and chatting" class="card-hero-img">
+        </picture>
       </div>
 
 
@@ -29,26 +33,29 @@
           experience, and overall efficiency.
         </p>
 
-        <div class="card-stats-companies">
-          <h2 class="card-stats-companies-header">10k+</h2>
-          <p class="card-stats-companies-description">
-            companies
-          </p>
+        <div class="card-list-of-stats">
+          <div class="card-stats-companies stats">
+            <h2 class="card-stats-companies-header stats-header">10k+</h2>
+            <p class="card-stats-companies-description stats-description">
+              companies
+            </p>
+          </div>
+
+          <div class="card-stats-templates stats">
+            <h2 class="card-stats-templates-header stats-header">314</h2>
+            <p class="card-stats-templates-description stats-description">
+              templates
+            </p>
+          </div>
+
+          <div class="card-stats-queries stats">
+            <h2 class="card-stats-queries-header stats-header">12m+</h2>
+            <p class="card-stats-queries-description stats-description">
+              queries
+            </p>
+          </div>
         </div>
 
-        <div class="card-stats-templates">
-          <h2 class="card-stats-templates-header">314</h2>
-          <p class="card-stats-templates-description">
-            templates
-          </p>
-        </div>
-
-        <div class="card-stats-queries">
-          <h2 class="card-stats-queries-header">12m+</h2>
-          <p class="card-stats-queries-description">
-            queries
-          </p>
-        </div>
       </div>
 
     </div>
