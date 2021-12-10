@@ -16,8 +16,6 @@ body {
   flex-direction: column;
   justify-content: center;
 
-
-
   background: hsl(233, 47%, 7%);
   font-size: 15px;
 }
@@ -108,12 +106,13 @@ body {
 
       .stats-header {
         font-weight: 700;
-        color: hsla(0, 0%, 100%, 0.6);
+        color: hsl(0, 0%, 100%);
       }
 
       .stats-description {
         font-family: 'Lexend Deca', sans-serif;
-        color: hsla(0, 0%, 100%, 0.75);
+        font-size: .7rem;
+        color: hsla(0, 0%, 100%, 0.6);
       }
     }
     /** || Card-Body-Stats-of-Companies **/
