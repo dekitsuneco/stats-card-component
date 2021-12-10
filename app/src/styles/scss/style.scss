@@ -1,9 +1,12 @@
 /** | Page **/
-body {
+* {
   box-sizing: border-box;
-  width: 100vw;
   margin: 0;
   padding: 0;
+}
+
+body {
+  width: 100vw;
 
   display: flex;
   flex-direction: column;
@@ -14,6 +17,7 @@ body {
   background: hsl(233, 47%, 7%);
   font-size: 15px;
 }
+
 
 /** | Component **/
 /**
@@ -32,6 +36,17 @@ body {
 *     NoQ-HEADER
 *     NoQ-CONTENT
 **/
+.card {
+  width: 20rem;
+  height: 30rem;
+  margin: 4rem auto;
+  padding: 1.3rem;
+
+  background: hsl(244, 38%, 16%);
+
+  border-radius: .5rem;
+}
+
 
 /** | Footer **/
 .attribution {
