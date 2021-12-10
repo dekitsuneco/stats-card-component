@@ -1,10 +1,13 @@
-/** | Page **/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+/** | Page **/
 body {
   width: 100vw;
 
@@ -46,6 +49,8 @@ body {
   flex-direction: column;
   justify-content: center;
 
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
   background: hsl(244, 38%, 16%);
 
   border-radius: .5rem;
@@ -64,7 +69,12 @@ body {
     /** || Card-Body-Header **/
     .card-header {
       text-align: center;
+      font-weight: 700;
       color: hsl(0, 0%, 100%);
+
+      .accent{
+        color: hsl(277, 64%, 61%);
+      }
     }
     /** || Card-Body-Description **/
     .card-description {
@@ -77,9 +87,11 @@ body {
       text-align: center;
 
       .card-stats-companies-header {
+        font-weight: 700;
         color: hsla(0, 0%, 100%, 0.6);
       }
       .card-stats-companies-description {
+        font-family: 'Lexend Deca', sans-serif;
         color: hsla(0, 0%, 100%, 0.75);
       }
     }
@@ -88,9 +100,11 @@ body {
       text-align: center;
 
       .card-stats-templates-header {
+        font-weight: 700;
         color: hsla(0, 0%, 100%, 0.6);
       }
       .card-stats-templates-description {
+        font-family: 'Lexend Deca', sans-serif;
         color: hsla(0, 0%, 100%, 0.75);
       }
     }
@@ -99,9 +113,11 @@ body {
       text-align: center;
 
       .card-stats-queries-header {
+        font-weight: 700;
         color: hsla(0, 0%, 100%, 0.6);
       }
       .card-stats-queries-description {
+        font-family: 'Lexend Deca', sans-serif;
         color: hsla(0, 0%, 100%, 0.75);
       }
     }
