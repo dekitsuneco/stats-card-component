@@ -60,6 +60,51 @@ body {
   /** || Card-Body **/
   .card-body {
     padding: 1.3rem;
+
+    /** || Card-Body-Header **/
+    .card-header {
+      text-align: center;
+      color: hsl(0, 0%, 100%);
+    }
+    /** || Card-Body-Description **/
+    .card-description {
+      text-align: center;
+      color: hsla(0, 0%, 100%, 0.75);
+    }
+
+    /** || Card-Body-Stats-of-Companies **/
+    .card-stats-companies {
+      text-align: center;
+
+      .card-stats-companies-header {
+        color: hsla(0, 0%, 100%, 0.6);
+      }
+      .card-stats-companies-description {
+        color: hsla(0, 0%, 100%, 0.75);
+      }
+    }
+    /** || Card-Body-Stats-of-Templates **/
+    .card-stats-templates {
+      text-align: center;
+
+      .card-stats-templates-header {
+        color: hsla(0, 0%, 100%, 0.6);
+      }
+      .card-stats-templates-description {
+        color: hsla(0, 0%, 100%, 0.75);
+      }
+    }
+    /** || Card-Body-Stats-of-Queries **/
+    .card-stats-queries {
+      text-align: center;
+
+      .card-stats-queries-header {
+        color: hsla(0, 0%, 100%, 0.6);
+      }
+      .card-stats-queries-description {
+        color: hsla(0, 0%, 100%, 0.75);
+      }
+    }
   }
 }
 
