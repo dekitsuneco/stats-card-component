@@ -42,6 +42,10 @@ body {
   height: 30rem;
   margin: 4rem auto;
 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
   background: hsl(244, 38%, 16%);
 
   border-radius: .5rem;
