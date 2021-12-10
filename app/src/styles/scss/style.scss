@@ -24,27 +24,39 @@ body {
 * Card is:
 * CARD
 *   IMG
-*   HEADER
-*   DESCRIPTION
-*   NUM-OF-COMPANIES:
-*     NoC-HEADER
-*     NoC-CONTENT
-*   NUM-OF-TEMPLATES:
-*     NoT-HEADER
-*     NoT-CONTENT
-*   NUM-OF-QUERIES:
-*     NoQ-HEADER
-*     NoQ-CONTENT
+*   BODY
+*     HEADER
+*     DESCRIPTION
+*     NUM-OF-COMPANIES:
+*       NoC-HEADER
+*       NoC-CONTENT
+*     NUM-OF-TEMPLATES:
+*       NoT-HEADER
+*       NoT-CONTENT
+*     NUM-OF-QUERIES:
+*       NoQ-HEADER
+*       NoQ-CONTENT
 **/
 .card {
   width: 20rem;
   height: 30rem;
   margin: 4rem auto;
-  padding: 1.3rem;
 
   background: hsl(244, 38%, 16%);
 
   border-radius: .5rem;
+
+  /** || Image **/
+  img {
+    width: 100%;
+
+    border-radius: .5rem;
+  }
+
+  /** || Card-Body **/
+  .card-body {
+    padding: 1.3rem;
+  }
 }
 
 
