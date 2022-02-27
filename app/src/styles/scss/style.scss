@@ -14,10 +14,18 @@ body {
 
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  //justify-content: center;
+  justify-content: space-between;
 
   background: hsl(233, 47%, 7%);
   font-size: 15px;
+}
+
+main {
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
